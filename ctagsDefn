@@ -1,0 +1,5 @@
+--langdef=txt
+--langmap=txt:.txt
+--txt-kinds=+h
+--regex-txt=/^(:.*)$/\1/h,headings/
+
